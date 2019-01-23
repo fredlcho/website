@@ -1,20 +1,46 @@
 body,html{
-  height:100%;
+  margin:0;
+
 }
 
-.container{
-  position:fixed;
-  top:0;
-  left:0;
+.landing{
+  background-image:url("/home/frederick/fred_website/images/mountain_lake_landscape_trees_79396_3500x2309.jpg");
+  background-color: #cccccc;
+  background-size:100% 100%;
+  background-clip:border-box;
+  height:900px;
+}
 
-  min-width:100%;
-  min-height:100%;
+/* .fnavbar{
+  overflow:hidden;
+}
+.fnavbar a{
+  float:right;
+} */
+#logo{
+  font-size:300px;
+}
+.top-left a{
+  /* position: absolute; */
+  top: 8px;
+  left:16px;
+  font-size:100px;
+  text-decoration:none;
+  color:white;
+  font-family: 'Righteous',cursive;
+  float:left;
+  padding-left:100px;
 }
 
 .top-left{
-  position: absolute;
-  top: 8px;
-  left:16px;
-  font-size:200px;
-  text-decoration:none;
+  overflow:hidden;
+}
+
+
+
+.about-me h1,p{
+  background-color:#474e5d;
+  color:white;
+  margin-top:-8px;
+  text-align:center;
 }
