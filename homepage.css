@@ -4,7 +4,7 @@ body,html{
 }
 
 .landing{
-  background-image:url("/home/frederick/fred_website/images/mountain_lake_landscape_trees_79396_3500x2309.jpg");
+  background-image:url("mountain_lake_landscape_trees_79396_3500x2309.jpg");
   background-color: #cccccc;
   background-size:100% 100%;
   background-clip:border-box;
