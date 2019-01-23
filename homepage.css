@@ -3,13 +3,18 @@ body,html{
 }
 
 .container{
-  position:relative;
-  text-align:center;
-  color:white;
+  position:fixed;
+  top:0;
+  left:0;
+
+  min-width:100%;
+  min-height:100%;
 }
 
 .top-left{
   position: absolute;
   top: 8px;
   left:16px;
+  font-size:200px;
+  text-decoration:none;
 }
