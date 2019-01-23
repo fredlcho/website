@@ -1,6 +1,5 @@
 body,html{
   margin:0;
-
 }
 
 .landing{
@@ -8,18 +7,13 @@ body,html{
   background-color: #cccccc;
   background-size:100% 100%;
   background-clip:border-box;
-  height:900px;
+  height:1000px;
 }
 
-/* .fnavbar{
-  overflow:hidden;
-}
-.fnavbar a{
-  float:right;
-} */
 #logo{
   font-size:300px;
 }
+
 .top-left a{
   /* position: absolute; */
   top: 8px;
@@ -36,11 +30,40 @@ body,html{
   overflow:hidden;
 }
 
-
-
-.about-me h1,p{
+.bottom-right{
+  position:absolute;
+  bottom:8px;
+  right:16px;
   background-color:#474e5d;
   color:white;
-  margin-top:-8px;
+  font-family: 'Righteous',cursive;
+}
+
+.centered{
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+}
+
+img.pfp{
+  max-width:25%;
+  max-height:25%;
+  border-radius:50%;
+}
+.about-me{
+  background-color:#474e5d;
+  color:white;
+  /* margin-top:-75px; */
+  text-align:left
+}
+
+.about_me_header{
+  font-size:50px;
+  font-family: 'Righteous',cursive;
+}
+
+.about_me_desc{
   text-align:center;
+  font-size:75px;
 }
